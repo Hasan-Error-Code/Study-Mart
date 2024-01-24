@@ -19,5 +19,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('course/', include("Course.urls"))
+    path('course/', include("Course.urls")),
+    path('dm/', include('Data_Mining.urls')),
+    path('ds/', include('Data_Science.urls')),
+    path('dl/', include('Deep_Learning.urls')),
+    path('ml/', include('Machine_Learning.urls'))
 ]
