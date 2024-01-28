@@ -18,5 +18,15 @@
             <li>We have {{c3 | upper}} course</li>
             <li>We have {{c4}} course</li>
         </ul>
+        <ul>
+            <h2>Condition</h2>
+            {% if Name == 'Hasan' %}
+            <h3>If tag is working</h3>
+            {% elif Name == 'Abdus_Salam' %}
+            <h3>Elif tag is working</h3>
+            {% else %}
+            <h3>Else tag is working</h3>
+            {% endif %}
+        </ul>
     </body>
 </html>

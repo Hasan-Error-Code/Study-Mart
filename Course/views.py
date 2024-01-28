@@ -4,7 +4,7 @@ from django.shortcuts import render
 def Course(request):
     return render(request, 'Course/Course.html')
 def Name(request):
-    return render(request, 'Course/Course.html', {'Name': "Hasan"})
+    return render(request, 'Course/Course.html', {'Name': "Abdus_Salam"})
 def Courses(request):
     course1 = 'Data Mining'
     course2 = 'Machine Learning'
