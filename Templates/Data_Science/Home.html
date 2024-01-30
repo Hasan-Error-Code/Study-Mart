@@ -4,6 +4,9 @@
     </head>
     <body>
         <h2>This is Data Science Home Page</h2>
-        <p> {{ course }} </p>
+        {% for courses in course %}
+        {{forloop.cournter}}{{courses}} <br>
+        {% endfor %}
+
     </body>
 </html>
